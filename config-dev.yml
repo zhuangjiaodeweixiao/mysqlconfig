@@ -1,7 +1,23 @@
+server:
+  port: 8001
+
 spring:
+  application:
+    name: cloud-config8001
+    
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://121.5.219.182:3306/qian?useUnicode=true&characterEncoding=utf-8
+    url: jdbc:mysql://121.5.219.182:3306/qian
     username: root
     password: '@QSZqsz456698'
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://121.5.219.182:8001/eureka
+
+mybatis:
+  mapper-locations: classpath:mapper/*.Mapper.xml
     
