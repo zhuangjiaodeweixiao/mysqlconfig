@@ -3,7 +3,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://121.5.219.182:3306/qian
     username: root
-    password: '{cipher}5e602f5898654496fd90ae9438df0ecbe3d4d0d595c0eb1e259a5907840a3140'
+    password: '{cipher}AQC4cDEouF946HyA1pLNVNgltCZMiukVvpyI998Q4cXXiGa5ReN6uToWDoJJJOUSHYQcfAGewgaNjqDVR/HaYVzSzyr+ctFHdOsF9sr8nxCTRHbWhajJiUPkqQR+mMmOendblmt3ps+1rzp+LEid95Pbvy9Hzk1YZ4bAPYYlijFrgvULw3JDu3FVlu5kNwQwWA/665N1gCPNoT3ztuv+nE90szXK9bDQTvHQFYU6Li3fQJ3a/V2W1Zyq76lHZqQ8+ZP+ZwbO5dk38MyQWtBL7OhzsPKw7niJRzX2gsP/HiDnJzhFk4veiG0tga0zivy0QPctGmrJGK8ybzaxji9YrCCkEdyWW3dXatEegxuKK7fzG78xCj092V6dEja1ZuEU3Ss='
 
 eureka:
   client:
