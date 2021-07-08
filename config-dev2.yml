@@ -1,0 +1,13 @@
+spring:  
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://121.5.219.182:3306/qian
+    username: root
+    password: '{cipher}5e602f5898654496fd90ae9438df0ecbe3d4d0d595c0eb1e259a5907840a3140'
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://121.5.219.182:8001/eureka
